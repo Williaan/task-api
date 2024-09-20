@@ -13,9 +13,7 @@ import { UsersModule } from 'src/users/users.module';
       secret: configService.get<string>('JWT_SECRET'),
       signOptions: { expiresIn: +configService.get<number>('JWT_EXPIRATION_TIME') }
     }),
-
-    inject: [ConfigService],
-
+    inject: [ConfigService]
   }), UsersModule],
   providers: [AuthService],
   controllers: [AuthController]
