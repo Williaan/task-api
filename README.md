@@ -6,4 +6,4 @@
 - Variáveis de ambiente com ConfigService
 - Autenticação (JwtService, App guard)
 - Password hash
-- Banco de dados - TODO
+- Banco de dados - (Utilizado TypeORM para mapear)
