@@ -7,3 +7,4 @@
 - Autenticação (JwtService, App guard)
 - Password hash
 - Banco de dados - (Utilizado TypeORM para mapear)
+- Docker 
